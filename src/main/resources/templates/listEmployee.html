@@ -13,6 +13,9 @@
         <a th:href="@{'/employee/addEmployeePage'}">Update an Employee</a>
 
         <br/>
+        <a th:href="@{'/employee/addEmployeePage'}">Delete an Employee</a>
+
+        <br/>
         <table th:if="${ not #lists.isEmpty(employees) }" border=1>
         <tr>
             <td>User Name</td>
