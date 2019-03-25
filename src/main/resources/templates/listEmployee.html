@@ -10,7 +10,9 @@
         <a th:href="@{'/employee/addEmployeePage'}">Add Employee</a>
 
         <br/>
+        <a th:href="@{'/employee/addEmployeePage'}">Update an Employee</a>
 
+        <br/>
         <table th:if="${ not #lists.isEmpty(employees) }" border=1>
         <tr>
             <td>User Name</td>
